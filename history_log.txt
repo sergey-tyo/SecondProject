@@ -1,0 +1,96 @@
+Name: Sergey
+Surname: Tyo
+Date: 03.11.2024
+
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt update
+    4  clear
+    5  sudo apt install mc
+    6  mc
+    7  clear
+    8  sudo apt install openssh-server
+    9  ip a
+   10  systemctl status ssh
+   11  clear
+   12  ls
+   13  clear
+   14  ls- al
+   15  ls
+   16  clear
+   17  ll
+   18  ls -a
+   19  ls -al
+   20  clear
+   21  ls -al
+   22  clear
+   23  mc
+   24  clear
+   25  sudo apt update
+   26  sudo apt install gcc make perl -y
+   27  clear
+   28  sudo usermod -aG vboxsf srgtyo
+   29  sudo su
+   30  sudo reboot
+   31  clear
+   32  ls -al
+   33  cat > Pets.txt
+   34  cat >> Pets.txt
+   35  clear
+   36  cat Pets.txt
+   37  ls -al
+   38  clear
+   39  cat > Pets.txt
+   40  clear
+   41  cat Pets.txt
+   42  clear
+   43  cat > Pets.txt
+   44  clear
+   45  cat Pets.txt
+   46  clear
+   47  cat > Pets.txt
+   48  cat Pets.txt
+   49  clear
+   50  cat > PackAnimals.txt
+   51  cat PackAnimals.txt 
+   52  cleare
+   53  clear
+   54  cat Pets.txt PackAnimals.txt > Combined.txt
+   55  cat Combined.txt 
+   56  clear
+   57  mv Combined.txt HumanFriends.txt
+   58  ls
+   59  clear
+   60  exit
+   61  clear
+   62  mkdir FriendsDirectory
+   63  mv HumanFriends.txt FriendsDirectory/
+   64  clear
+   65  ls
+   66  cd FriendsDirectory/
+   67  ls
+   68  clear
+   69  exit
+   70  clear
+   71  sudo apt update
+   72  sudo apt install mysql-server
+   73  sudo systemctl status mysql
+   74  clear
+   75  sudo apt update
+   76  sudo apt install wget -y
+   77  wget https://dev.mysql.com/get/mysql-apt-config_0.8.33-1_all.deb
+   78  sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb
+   79  sudo apt update
+   80  sudo apt install mysql-client
+   81  sudo apt update
+   82  clear
+   83  wget http://mirrors.kernel.org/ubuntu/pool/universe/h/htop/htop_3.0.5-7_amd64.deb
+   84  sudo dpkg -i cowsay_3.03+dfsg2-7_all.deb
+   85  wget http://archive.ubuntu.com/ubuntu/pool/universe/c/cowsay/cowsay_3.03+dfsg2-8_all.deb
+   86  sudo dpkg -i cowsay_3.03+dfsg2-8_all.deb
+   87  cowsay Hello, World!
+   88  clear
+   89  sudo dpkg -r cowsay
+   90  cowsay Hello, World!
+   91  clear
+   92  history > history_log.txt
